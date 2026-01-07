@@ -45,10 +45,10 @@ import os
 import sys
 import importlib
 
-# Add src directory to path
-src_dir = os.path.dirname(os.path.abspath(__file__))
-if src_dir not in sys.path:
-    sys.path.insert(0, src_dir)
+# Add current directory to path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
 
 def print_header(title: str):
     """Print formatted header"""

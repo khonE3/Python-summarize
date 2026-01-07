@@ -19,7 +19,6 @@
 
 ```bash
 # รันโปรแกรมหลัก (พร้อมเมนูเลือกบท)
-cd src
 python main.py
 
 # รันแต่ละบทแยก
@@ -32,17 +31,16 @@ python 02_control_flow.py
 
 ```
 Python-summarize/
-├── src/
-│   ├── __init__.py
-│   ├── main.py              # Entry point
-│   ├── 01_basics.py         # บทที่ 1
-│   ├── 02_control_flow.py   # บทที่ 2
-│   ├── 03_data_structures.py # บทที่ 3
-│   ├── 04_functions.py      # บทที่ 4
-│   ├── 05_oop.py            # บทที่ 5
-│   ├── 06_files_exceptions.py # บทที่ 6
-│   ├── 07_modules.py        # บทที่ 7
-│   └── 08_advanced.py       # บทที่ 8
+├── main.py              # Entry point
+├── 01_basics.py         # บทที่ 1
+├── 02_control_flow.py   # บทที่ 2
+├── 03_data_structures.py # บทที่ 3
+├── 04_functions.py      # บทที่ 4
+├── 05_oop.py            # บทที่ 5
+├── 06_files_exceptions.py # บทที่ 6
+├── 07_modules.py        # บทที่ 7
+├── 08_advanced.py       # บทที่ 8
+├── __init__.py
 └── README.md
 ```
 
